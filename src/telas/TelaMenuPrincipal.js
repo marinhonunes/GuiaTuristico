@@ -56,8 +56,9 @@ const estilos = StyleSheet.create({
     marginRight: 10,
   },
   principal: {
-    width: 400,
-    height: 400,
-    borderRadius: 200
+    width: '100%',
+    height: undefined,
+    aspectRatio: 1,
+    borderRadius: 200,
   }
 });

@@ -14,9 +14,9 @@ const TemaEscuro = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    background: '#121212', // Fundo escuro
-    card: '#1f1f1f', // Fundo do cabeçalho
-    text: '#ffffff', // Texto claro
+    background: '#121212', 
+    card: '#1f1f1f',
+    text: '#ffffff', 
     border: '#272727',
   },
 };
@@ -27,9 +27,9 @@ export default function App() {
       <PilhaNavegacao.Navigator
         initialRouteName="MenuPrincipal"
         screenOptions={{
-          headerStyle: { backgroundColor: '#1f1f1f' }, // Fundo do cabeçalho
-          headerTintColor: '#ffffff', // Texto do cabeçalho
-          headerTitleAlign: 'center', // Alinhamento central
+          headerStyle: { backgroundColor: '#1f1f1f' }, 
+          headerTintColor: '#ffffff',
+          headerTitleAlign: 'center', 
         }}
       >
         <PilhaNavegacao.Screen
@@ -57,16 +57,15 @@ export default function App() {
   );
 }
 
-// Estilos globais
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#121212', // Fundo escuro
-    alignItems: 'center', // Centralizado horizontalmente
-    justifyContent: 'center', // Centralizado verticalmente
+    backgroundColor: '#121212', 
+    alignItems: 'center', 
+    justifyContent: 'center', 
   },
   text: {
-    color: '#ffffff', // Texto branco
+    color: '#ffffff', 
     fontSize: 18,
     fontWeight: 'bold',
     margin: 10,
